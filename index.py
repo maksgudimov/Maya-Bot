@@ -27,19 +27,19 @@ from googletrans import Translator
 
 from aiogram.types import ChatActions
 
-openai.api_key = "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" #
+openai.api_key = "TOKEN" #
 translator = Translator()
 
 storage = MemoryStorage()
 
-bot = Bot(token="5454478500:AAEE7tWJYsdMbP7tFpMT-ktMW-wcH3Zpios") #5454478500:AAEE7tWJYsdMbP7tFpMT-ktMW-wcH3Zpios
+bot = Bot(token="TOKEN") 
 
 dp = Dispatcher(bot,storage=storage)
 logging.basicConfig(level=logging.INFO)
 
 scheduler = AsyncIOScheduler()
 
-CHAT_ID = '-844286975'
+CHAT_ID = '-ID'
 
 #print(datetime.datetime.today().weekday())
 
